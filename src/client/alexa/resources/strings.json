@@ -1,0 +1,7 @@
+{
+  "ANSWER_CORRECT": "Correct!",
+  "ANSWER_INCORRECT": "The correct answer is '{answer}'.",
+  "INTENT_STOP": "You made good progress. See you later.",
+  "INTENT_HELP": "Try to answer with the name of the city",
+  "INTENT_START": "Welcome to the Brain Picker! Let's broaden your knowledge about capital cities. Are you ready?"
+}

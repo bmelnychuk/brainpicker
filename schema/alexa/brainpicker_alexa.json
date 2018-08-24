@@ -1,0 +1,68 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "brain picker",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "StartAnswering",
+          "slots": [],
+          "samples": [
+            "Yes",
+            "let's start"
+          ]
+        },
+        {
+          "name": "AnswerQuestion",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AMAZON.EUROPE_CITY"
+            }
+          ],
+          "samples": [
+            "{answer}",
+            "It's {answer}",
+            "I guess it's {answer}",
+            "Is it {answer} ",
+            "The answer is {answer}"
+          ]
+        },
+        {
+          "name": "DontKnow",
+          "slots": [],
+          "samples": [
+            "not sure",
+            "next question",
+            "who knows",
+            "skip",
+            "dunno",
+            "don't know",
+            "I don't know"
+          ]
+        },
+        {
+          "name": "RepeatQuestion",
+          "slots": [],
+          "samples": [
+            "Did not get it",
+            "Repeat",
+            "Come again"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

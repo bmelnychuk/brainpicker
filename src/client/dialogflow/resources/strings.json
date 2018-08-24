@@ -1,0 +1,7 @@
+{
+  "QUESTIONNAIRE_INTRO": "Let's pick your brain on '{category}'.",
+  "ANSWER_CORRECT": "Correct!",
+  "ANSWER_INCORRECT": "The correct answer is '{answer}'.",
+  "INTENT_START": "Welcome to the Brain Picker! Are you ready?",
+  "CATEGORY_NOT_FOUND": "Right now we don't have questions about '{keyword}'. You can try something different."
+}

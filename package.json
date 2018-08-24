@@ -1,0 +1,41 @@
+{
+  "name": "brain-picker-backend",
+  "version": "1.0.0",
+  "main": "src/ExpressApp.js",
+  "scripts": {
+    "start": "env-cmd .env.development babel-node src/ExpressApp.js",
+    "build": "bash script/firebase/build.sh",
+    "init": "env-cmd .env.development babel-node src/InitData.js",
+    "eslint": "./node_modules/.bin/eslint packages/**",
+    "flow": "./node_modules/.bin/flow",
+    "deploy:dev": "bash script/firebase/deploy.sh dev",
+    "deploy:live": "bash script/firebase/deploy.sh live",
+    "test": "jest test"
+  },
+  "dependencies": {
+    "ask-sdk": "2.0.1",
+    "axios": "0.17.1",
+    "body-parser": "1.18.3",
+    "dotenv": "5.0.1",
+    "env-cmd": "8.0.1",
+    "express": "4.16.2",
+    "firebase-admin": "5.12.1",
+    "firebase-functions": "1.1.0",
+    "reflect-metadata": "0.1.12",
+    "string-format": "2.0.0",
+    "uuid": "3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.0.2",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-flow": "6.23.0",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "eslint": "4.12.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "flow-bin": "0.71.0",
+    "jest": "23.0"
+  }
+}

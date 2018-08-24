@@ -1,0 +1,13 @@
+web_addr: 127.0.0.1:4041
+tunnels:
+    app:
+        proto: http
+        addr: 3000
+        bind_tls: false
+    app-protected:
+        proto: http
+        addr: 3000
+        auth: "username:password"
+    mongo:
+        proto: tcp
+        addr: 27017

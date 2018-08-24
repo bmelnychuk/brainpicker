@@ -1,0 +1,31 @@
+{
+  "env": {
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "code": 140
+      }
+    ],
+    "class-methods-use-this": "off",
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "no-restricted-syntax": "off",
+    "guard-for-in": "off",
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ]
+  }
+}
