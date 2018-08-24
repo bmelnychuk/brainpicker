@@ -1,3 +1,7 @@
+This is project a simple version of trivia questions. You can find something similar at http://www.triviaquestionsnow.com or https://trivia.fyi. Basically, you have sets of questions grouped into categories by a common topic. The user can select a category and then answer questions which are validated by the system.
+
+Its integrated with alexa and dialogflow.
+
 The process of building this project is covered in my articles:
 
 - [Practicing Domain Driven Design. Part 1: Understanding the problem.](https://medium.com/@bmelnychuk/practicing-domain-driven-design-part-1-understanding-the-problem-ce8b57e7c769)
